@@ -61,4 +61,8 @@ function checkMatch() {
 
     opencards = [];
 
+    if(document.querySelectorAll(".boxMatched").length === emojis.length) {
+        alert("Parabéns! Você encontrou todos os pares!");
+    }
+
 }
